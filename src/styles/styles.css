@@ -1,0 +1,33 @@
+.top{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.middle{
+    box-sizing: border-box;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.avg{
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+}
+.avg__title{
+    white-space: nowrap;
+    font-size: 20px;
+    color: grey;
+}
+.avg__item{
+    text-align: center;
+    font-size: 60px; 
+    color: orange;
+}
+
+.avg__item-decor{
+    font-size: 18px; 
+    color: grey;
+}
